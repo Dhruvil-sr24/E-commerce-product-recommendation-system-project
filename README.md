@@ -13,7 +13,7 @@ Objective:
   * Target new users with popular product recommendations.
   * Address the Cold Start Problem for users with no prior interactions. The cold start problem in recommender systems arises when there are insufficient data to make recommendations for new users or items.
 Outputs:
-  * Suggest the top 5 products with a minimum of 50 or 100 interactions.
+  * Suggest the top 5 products with a minimum of 10 or 50 interactions.
 
 Methodology:
   * Compute the average rating for each product.

@@ -1,12 +1,12 @@
 # E-commerce-product-recommendation-system
 This project demonstrates a machine learning-based Product Recommendation System, designed to offer users personalized product suggestions based on browsing and purchase behavior. The system analyzes user interactions by leveraging collaborative and content-based filtering to provide relevant product recommendations. The goal is to enhance the shopping experience for users while boosting sales for e-commerce platforms.
 
-#Dataset
+# Dataset
 The dataset used for this project is sourced from Amazon's electronic products ratings. It includes user reviews and ratings without any predefined headers. To prevent bias, each user and product is assigned a unique identifier instead of using names or identifiable data.
 
 Dataset Link: Amazon Electronics Ratings Dataset https://www.kaggle.com/datasets/skillsmuggler/amazon-ratings/code
 
-#Implementation Approach
+# Implementation Approach
 #1. Rank-Based Recommendations
 Objective:
   Recommend products with the highest ratings count.
@@ -19,7 +19,7 @@ Methodology:
   Count the total ratings for each product.
   Create a DataFrame sorted by average ratings.
   Implement a function to fetch the top n products meeting a specific interaction threshold.
-#2. Similarity-Based Collaborative Filtering
+# 2. Similarity-Based Collaborative Filtering
 Objective:
   Provide personalized recommendations tailored to users based on the preferences of similar users.
 
@@ -33,7 +33,7 @@ Methodology:
   Define a recommendation function:
   Identify products interacted with by similar users but not the current user.
   Suggest the top n products from this filtered list.
-#3. Model-Based Collaborative Filtering
+# 3. Model-Based Collaborative Filtering
 Objective:
   Generate personalized recommendations using a model-based approach to handle sparsity and scalability issues.
 

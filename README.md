@@ -53,6 +53,6 @@ Model Evaluation:
   * Compute the mean squared error (MSE) of predictions.
   * Take the square root of MSE to get RMSE.
   * The RMSE provides insight into the accuracy of the model's predictions.
-Note:
+#### Note:
 ⚠️ This project is intended solely for educational purposes to understand the workings of recommendation systems. 
 
